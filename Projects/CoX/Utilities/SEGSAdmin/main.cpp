@@ -17,6 +17,10 @@
 #include <QFontDatabase>
 #include <QSplashScreen>
 
+#define ProjectName "SEGSAdmin"
+#define VersionNumber "0.2"
+#define VersionString ProjectName " v" VersionNumber
+
 int main(int argc, char *argv[])
 {
     static const char ENV_VAR_QT_DEVICE_PIXEL_RATIO[] = "QT_DEVICE_PIXEL_RATIO";
